@@ -1,0 +1,19 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "cool library book",
+  "main": "app.js",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup app.js bundel.js --format .js"
+  },
+  "keywords": [
+    "book"
+  ],
+  "author": "alex bond",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "rollup": "^4.9.1"
+  }
+}
