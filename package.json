@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "cool library book",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "start": "live-server",
-    "build": "rollup app.js bundel.js --format .js"
+    "build": "rollup -c --watch"
   },
   "keywords": [
     "book"
@@ -13,7 +14,12 @@
   "author": "alex bond",
   "license": "ISC",
   "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
     "eslint": "^8.56.0",
-    "rollup": "^4.9.1"
+    "rollup": "^4.9.1",
+    "rollup-plugin-import-css": "^3.3.5"
+  },
+  "dependencies": {
+    "on-change": "^5.0.0"
   }
 }
