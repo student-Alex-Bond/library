@@ -1,11 +1,14 @@
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-
 :root { 
     --black: #121212;
-    --white: #FAFAFA;
+    --white: #fafafa;
 }
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--black);
+}
+
 
 #root {
     max-width: 800px;
